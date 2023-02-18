@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <h1>My to-do list</h1>
+            <form action="" onsubmit="return addTask()" id="forms">
+                <input type="text" id="task" placeholder="Add new Task">
+                <button id="btn">Add</button> 
+                <br>
+               
+            </form>
+            <p class="error" id="Error" style="color: #E7F6F2;"></p>
+
+
+            <div class="addedTask" id="TaskAdded"></div>
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
+
+

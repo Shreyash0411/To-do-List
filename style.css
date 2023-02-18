@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(background.jpg);
+}
+
+section{
+
+    color: white;
+    text-align: center;
+    margin-top: 100px;  
+    margin-left: 450px;
+
+}
+
+.container
+{
+    position: relative;
+    max-width: 300px;
+    max-height: max-content;
+    padding:10px 50px 30px 50px;
+    background-color: (255,255,255.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+.container form
+{
+    color: white;
+}
+
+#task
+{
+    font-size: 25px;
+    width: 200px;
+    margin : 10px 0px;
+    padding : 10px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+}
+
+#btn
+{
+    margin-left: 20px;
+    width: 50px;
+    height: 35px;
+    cursor: pointer;
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.newTask
+{
+
+    width: 300px;
+    background-color: #03001C;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+
+}
+
+.delete
+{
+    margin: 5px 5px;
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.newTask span{
+    margin:5px 5px;
+    font-size: 25px;
+}
